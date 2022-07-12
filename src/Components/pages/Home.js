@@ -23,7 +23,7 @@ class Home extends React.Component {
                     <div className="col d-flex justify-content-center">
                         <div className="col-3 col-form">
                             <form onSubmit={ this.addData } className="text-center the-form">
-                                <input type="text" name="username" value={this.state.username} onChange={(e)=>this.setState({username: e.target.value})}placeholder="Set UserName" className="form-input"/><br></br>
+                                <input type="text" name="username" value={this.state.username} onChange={(e)=>this.setState({username: e.target.value})} placeholder="Set UserName" className="form-input"/><br></br>
                                 Your Username is {this.state.username}
                                 <br></br><br></br>
                                 <input type="password" name="password" value={this.state.password} onChange={(e)=>this.setState({password:e.target.value})} placeholder="Set password" className="form-input"/><br></br>
