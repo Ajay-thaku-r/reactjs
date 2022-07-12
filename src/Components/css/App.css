@@ -78,7 +78,9 @@ header{
   display: inline;
   padding: 0px 10px;
 }
-
+.logo a{
+  color: #FCFCFC;
+}
 .sticky{
   position: sticky;
   top: 0;
@@ -93,9 +95,19 @@ header{
 footer{
   padding: 20px 0px;
 }
-a {
+.main-menu li a{
   text-decoration: none;
+  color: #FFF;
+  border: none;
+  transition: all 2s;
+}
+.main-menu li a:hover{
   color: #66FCF1;
+  border-bottom: 1px solid #66FCF1;
+}
+.main-menu li a:active {
+  color: #66FCF1;
+  border-bottom: 1px solid #66FCF1;
 }
 .col-3{
   width: 30%;

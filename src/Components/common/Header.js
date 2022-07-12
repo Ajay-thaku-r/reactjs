@@ -7,7 +7,7 @@ const Header = () => {
                <div className='container'>
                     <div className='row'>
                         <div className='col-4'>
-                            <h3><Link to="/">The Logo</Link></h3>
+                            <h3 className="logo"><Link to="/">The Logo</Link></h3>
                         </div>
                         <div className='col-8 justify-content-end align-items-center d-flex'>
                             <ul className='main-menu'>
