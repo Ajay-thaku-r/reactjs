@@ -38,14 +38,15 @@
 }
 
 /* Main css */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 body{
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   box-sizing: border-box;
+  background-color: #000000;
+  color: #FCFCFC;
 }
 header{
-  background-color: #c4c6cc;
   padding: 20px 0px;
 }
 .container{
@@ -70,14 +71,14 @@ header{
 .justify-content-end{
   justify-content: end;
 }
-.main-menu a li{
+.justify-content-center{
+  justify-content: center;
+}
+.main-menu li{
   display: inline;
   padding: 0px 10px;
 }
-.main-menu a{
-  text-decoration: none;
-  color: #333;
-}
+
 .sticky{
   position: sticky;
   top: 0;
@@ -90,6 +91,39 @@ header{
   text-align: center;
 }
 footer{
-  background-color: #c4c6cc;
   padding: 20px 0px;
+}
+a {
+  text-decoration: none;
+  color: #66FCF1;
+}
+.col-3{
+  width: 30%;
+}
+.col-form{
+  border: 1px solid #FCFCFC;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.form-input{
+  border: 1px solid #FCFCFC;
+  border-radius: 6px;
+  height: 30px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0 8px;
+}
+.btn{
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #66FCF1;
+  border: 1px solid #66FCF1;
+  border-radius: 12px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all .5s;
+}
+.btn:hover{
+  background-color: #FCFCFC;
 }
